@@ -1,0 +1,12 @@
+# Core app
+streamlit>=1.25.0
+
+# Hugging Face + Transformers
+transformers>=4.35.0
+huggingface-hub>=0.20.0
+
+# Optional: load .env files if you prefer env vars
+python-dotenv>=1.0.0
+
+# Logging / utilities
+loguru>=0.7.0
