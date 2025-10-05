@@ -1,5 +1,5 @@
 import streamlit as st
-from backend.engine import chat_with_openai
+from backend.engine import chat_with_model as chat_with_openai
 from backend.history_manager import ChatMemory
 from utils.config import Config
 from storage.json_store import JSONStore
