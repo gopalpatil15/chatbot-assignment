@@ -4,6 +4,7 @@ A simple yet professional chatbot built with **Streamlit** for the frontend and 
 This project demonstrates clean architecture, modular design, and safe handling of secrets — perfect for portfolio and demo use.
 
 ---
+# Live (https://chatbot-assignment-6mpsfyz3tgvyvu35wejh5p.streamlit.app)
 
 ## 📂 Project Structure
 
@@ -104,3 +105,4 @@ streamlit run app.py
 
 ![Demo Screenshot]<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b3ee00a8-ac1d-4ea5-b74d-8e8df4bb66c2" />
 ---
+
