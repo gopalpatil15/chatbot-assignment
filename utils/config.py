@@ -13,7 +13,7 @@ class Config:
         st.secrets.get("huggingface", {}).get("access_token", None)
     )
     HF_MODEL = (
-        st.secrets.get("huggingface", {}).get("model", "google/gemma-2b-it")  # ✅ lightweight default
+        st.secrets.get("huggingface", {}).get("model", "microsoft/DialoGPT-medium")  # ✅ lightweight default
     )
 
     # --- Chatbot Settings ---
