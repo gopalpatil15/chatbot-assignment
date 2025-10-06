@@ -77,7 +77,7 @@ for m in st.session_state.messages:
         )
     else:
         st.chat_message("assistant").markdown(
-            f"<div style='background-color:#F1F0F0; padding:10px; border-radius:8px;'>{m['content']}</div>",
+            f"<div style='background-color:000; padding:10px; border-radius:8px;'>{m['content']}</div>",
             unsafe_allow_html=True
         )
 
