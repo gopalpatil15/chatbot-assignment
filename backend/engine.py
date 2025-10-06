@@ -66,7 +66,7 @@ def chat_with_model(messages_or_prompt):
         logger.info("Generating response...")
         response = hf_chatbot(
             prompt,
-            max_new_tokens=256,
+            max_new_tokens=150,
             do_sample=True,
             temperature=0.7,
             top_p=0.9,
