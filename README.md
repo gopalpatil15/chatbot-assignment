@@ -59,10 +59,19 @@ pip install -r requirements.txt
 Create a `.streamlit/secrets.toml` file (ignored by Git):
 
 ```toml
+[openai]
+api_key = "sk-your-openai-key"
+
 [huggingface]
-access_token = "hf_your_token_here"
-model = "openchat/openchat-3.5-0106"
+api_key = "hf-your-hf-token"   # optional if model is public
+model = "HuggingFaceH4/zephyr-7b-beta"
+
+[general]
+max_turns = 5
+history_file = "chat_history.json"
+provider = "openai"   # or "huggingface"
 ```
+
 
 Or set environment variables instead:
 ```bash
@@ -93,19 +102,5 @@ streamlit run app.py
 
 ## 📌 Example
 
-![Demo Screenshot](https://via.placeholder.com/600x300?text=Chatbot+Demo)
-
+![Demo Screenshot]<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b3ee00a8-ac1d-4ea5-b74d-8e8df4bb66c2" />
 ---
-
-## 📜 License
-
-This project is for educational/demo purposes.  
-Feel free to fork and adapt for your own portfolio.
-```
-
----
-
-👉 This README is **recruiter‑ready**: it shows off your clean structure, explains setup clearly, and highlights your Hugging Face integration.  
-
-Would you like me to also add a **“Deployment” section** (e.g., how to host on Streamlit Cloud or Hugging Face Spaces) so you can share a live demo link in your portfolio?
-
